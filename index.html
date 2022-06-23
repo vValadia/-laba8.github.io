@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>Создаем анимацию
+</title>
+<script>
+i=0
+function ShowNextImage()
+{
+iii.src=i + ".jpg"
+i++
+setTimeout ("ShowNextImage()",1000)
+if ((i>=4)) i=0
+}
+28
+</script>
+</head>
+<body>
+    
+<img src="0.jpg" name="iii">
+<script>
+ShowNextImage()
+</script>
+<hr>
+<a href="#"
+onMouseOver="document.myImage.src='1.jpg'"
+onMouseOut="document.myImage.src='2.jpg'">
+<img src="2.jpg" name="myImage" width=230 height=200 border=0></a>
+</body>
+</html>
